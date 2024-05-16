@@ -1,0 +1,26 @@
+#xd{  
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 30.66px;
+    text-align: center;
+}
+
+body{
+    background-color: black;
+}
+#fumo{
+    color: blue;
+}
+#baco{
+    color: white;
+}
+#baco2{
+    color: blue;
+}
+#gif{
+    display: block;
+    margin: auto;
+}
+#zzz{
+    color: white;
+}
