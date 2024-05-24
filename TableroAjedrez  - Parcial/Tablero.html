@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tablero de Ajedrez</title>
-    <link rel="stylesheet" href="Tableroestilos.css" />
+    <link rel="stylesheet" href="Tableroestilos.css">
     <script src="Tableroscript.js"></script>
-  </head>
-  <body>
-    <button type="button" onclick="generar()">GENERAR</button>
-    <br />
-    <br />
-    <table id="tablero"></table>
-  </body>
+</head>
+<body>
+  <label for="">REINA EN AJEDREZ:</label>
+  <br>
+  <label for="fila">INGRESE LA POSICION EN LA FILA:</label>
+  <input type="number" id="fila" min="1" max="5">
+  <br>
+  <label for="columna">INGRESE LA POSICION EN LA COLUMNA:</label>
+  <input type="number" id="columna" min="1" max="5">
+  <button type="button" onclick="generar()">GENERAR</button>
+
+  <table id="tablero"></table>
+</body>
 </html>
